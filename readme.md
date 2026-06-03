@@ -18,7 +18,7 @@ Todos los ejercicios consumen un pequeño backend en PHP conectado a MySQL.
 
 # ⚠️ IMPORTANTE — VER VÍDEO 0
 
-[LINK_VIDEO_0](https://youtu.be/1H9yW6GA4wc)
+[VER_VIDEO_0](https://youtu.be/1H9yW6GA4wc)
 
 En este vídeo explico:
 
@@ -234,6 +234,6 @@ Si el contenido te ayuda:
 * Comparte la serie
 * Sígueme en mis redes para más contenido de desarrollo web y JavaScript
 
-- Youtube: [link](https://www.youtube.com/@antoniocastizo)
-- Twitch: [link](https://www.twitch.tv/antodevlive)
-- Linkedin: [link](https://www.linkedin.com/in/antonio-castizo/)
+- Youtube: [Canal_de_Youtube](https://www.youtube.com/@antoniocastizo)
+- Twitch: [Canal_de_Twitch](https://www.twitch.tv/antodevlive)
+- Linkedin: [Perfil_de_linkedin](https://www.linkedin.com/in/antonio-castizo/)
