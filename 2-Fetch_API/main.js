@@ -1,5 +1,4 @@
 // Constates y variables
-const formulario = document.querySelector('form');
 
 
 

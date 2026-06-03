@@ -29,7 +29,7 @@ if($_SERVER['REQUEST_METHOD'] === 'GET') {
     $query = "SELECT * FROM usuarios";
     $stmt = $conexion->prepare($query);
     $stmt->execute();
-    $usuarios = $stmt->fetch(PDO::FETCH_ASSOC);
+    $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     echo json_encode([
         "message" => "usuarios encontrados",
@@ -43,10 +43,14 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $query = "INSERT INTO usuarios (nombre, apellido, email, telefono) VALUES (:nombre, :apellido, :email, :telefono)";
     $stmt = $conexion->prepare($query);
-    $stmt->execute();
+    $stmt->execute([
+        ":nombre" => $data->nombre,
+        ":apellido" => $data->apellido,
+        ":email" => $data->email,
+        ":telefono" => $data->telefono
+    ]);
 
     echo json_encode([
-        "message" => "usuario creado correctamete",
-        "usuarios" => $usuarios
+        "message" => "usuario creado correctamete"
     ]);
 }

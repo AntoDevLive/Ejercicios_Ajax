@@ -1,5 +1,5 @@
 {
-  "name": "5-react-fetch-api",
+  "name": "6-react-axios",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.16.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },

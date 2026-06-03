@@ -1,14 +1,11 @@
-// Imports (recuerda instalar axios con npm!: "npm i axios")
+// Imports (recuerda instalar axios con npm!: "npm install axios")
 
 
-// Constates y variables
-const formulario = document.querySelector('form');
-
-
-
-// GET con Async Fetch API
+// GET con Axios
 
 
 
+// POST con Axios
 
-// POST con Async Fetch API
+
+// Mi axios
